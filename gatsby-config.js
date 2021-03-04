@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "johku",
+    title: "Johanna Reinikainen",
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
@@ -17,6 +17,12 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
     },
   ],
 };

@@ -1,0 +1,11 @@
+.header_container {
+  max-width: 300;
+  background-color: lavenderblush;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.links {
+  background-color: red;
+}
